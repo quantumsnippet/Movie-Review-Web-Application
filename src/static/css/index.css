@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+a{
+  display:inline;
+  float:left;
+  margin:30px;
+  width: 120px;
+	height: 30px;
+	background: rgb(255 255 255 / 65%);
+  text-align:center;
+	border: hidden;
+  border-radius:2px;
+	cursor: pointer;
+	color: #000;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	padding-top: 9px;
+  text-decoration:none;
+}
+a:hover{
+  color:#0e30ee;
+  background:#fff;
+}
+.header{
+	position: absolute;
+	top: calc(50% - 35px);
+	left: calc(50% - 255px);
+	z-index: 2;
+}
+
+.header img{
+	float: left;
+  opacity:0.8;
+}
+
+.login{
+	position: absolute;
+	top: calc(50% - 75px);
+	left: calc(50% - 50px);
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}
+.login input[type=text]{
+	width: 250px;
+	height: 30px;
+	background-color: rgb(0 0 0 / 75%);
+  opacity:0.6;
+	border: hidden;
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+  text-align:center;
+}
+
+.login input[type=password]{
+	width: 250px;
+	height: 30px;
+	background-color: rgb(0 0 0 / 75%);
+  opacity:0.6;
+	border: hidden;
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+  text-align:center;
+}
+
+.login button[type=submit]{
+	width: 257px;
+	height: 40px;
+	background: #fff;
+	border: hidden;
+  border-radius:2px;
+	cursor: pointer;
+	color: #000000;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 800;
+	padding: 4px;
+}
+
+.login button[type=submit]:hover{
+	opacity: 0.8;
+  color:rgb(0, 38, 255);
+}
+
+.login button[type=submit]:active{
+	opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 2px solid rgba(0, 17, 255, 0.87);
+}
+
+.login input[type=text]:hover::placeholder{
+	outline: none;
+  color:white;
+  font-weight:600;
+}
+.login input[type=text]:hover{
+	outline: none;
+  color:white;
+	border: hidden;
+  font-weight: 600;
+}
+.login input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(0, 17, 255, 0.9);
+}
+
+.login input[type=password]:hover::placeholder{
+	outline: none;
+  color:white;
+  font-weight:600;
+}
+.login input[type=password]:hover{
+	outline: none;
+  color:white;
+	border: hidden;
+  font-weight: 500;
+}
+.login button[type=submit]:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255, 255, 255, 0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	color: #fff;
+	font-size: 12px;
+}
+
+.body{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background-image: url("../images/background.jpg");
+	background-size: cover;
+  	background-repeat:no-repeat;
+	-webkit-filter: blur(1px);
+	z-index: 0;
+}
+
+.grad{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(0 8 108 / 92%)), color-stop(100%,rgba(0,0,0,0.65)));/* Chrome,Safari4+ */
+	z-index: 1;
+	opacity: 0.7;
+}

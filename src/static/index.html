@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Login Madi</title>
+    </head>
+
+	<body>
+		<div class="body"></div>
+		<div class="grad"><a href="http://${IP_ADDRESS}:8080/SignUp">SignUp Now!</a></div>
+		<div class="header">
+			<img src="images/movie_nodi_logo.png" style=" width: 120px; height: 120px; border-radius: 50%; margin: 0%; border: hidden; background-color: rgba(255,255,255,0.35);">
+		</div>
+		<br>
+		<form action="http://${IP_ADDRESS}:8080/Login" method="POST" class="login">
+			<input type="text" placeholder="UserName" name="username"><br>
+			<input type="password" placeholder="PassWord"name="password"><br>
+			<button type="submit">Login Now!</button>
+		</form>
+	</body>
+</html>

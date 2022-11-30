@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/signup.css">
+        <title>SignUp Aagi</title>
+    </head>
+
+	<body>
+		<div class="body"></div>
+		<div class="grad"></div>
+		<div class="header">
+			<img src="images/movie_nodi_logo.png" style=" width: 120px; height: 120px; border-radius: 50%; margin: 0%; border: hidden; background-color: rgba(255, 255, 255, 0.35);">
+		</div>
+		<br>
+		<form action="http://${IP_ADDRESS}:8080/SignUp" method="POST" class="signin">
+				<!--<input type="email" placeholder="Email" name="email"><br>-->
+				<input type="text" placeholder="UserName" name="username"><br>
+				<input type="password" placeholder="PassWord" name="password"><br>
+				<button type="submit">SignUp Now!</button>
+		</form>
+	</body>
+</html>

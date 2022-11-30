@@ -1,0 +1,93 @@
+  body {
+    background: #020d18 no-repeat fixed center;
+    display: block;
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+    
+  .rating-css {
+  color:#ffffff;
+	font-family: arial;
+	font-variant: small-caps;
+	font-size: 100%;
+	font-style: italic;
+	display: block;
+	background: #020d18;
+	text-align: center;
+	width: 1200px;
+  min-height: 50%;
+  margin: auto;
+  overflow: auto;
+	transition-property: color,width,background;
+	transition-duration: 1s;
+	transition-delay: 0.5s; 
+  border: 4px hidden;
+  padding: 20px;
+  }
+  .rating-css:hover{
+    color: #ffffff;
+    background: #020d18 no-repeat fixed center;
+  }
+  .rating-css div {
+    color: #2c0700;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0;
+  }
+  .star-icon input[type=radio] {
+    display: none;
+  }
+  .star-icon input[type=text]{
+    height: 100px;
+	  background-color: #616161;
+    opacity:0.6;
+	  border: 5px hidden;
+	  border-radius: 2px;
+	  color: #fff;
+	  font-family: 'Exo', sans-serif;
+	  font-size: 16px;
+	  font-weight: 400;
+	  padding: 4px;
+    text-align:center;
+  }
+  .star-icon input[type=submit]{
+    width: 257px;
+	  height: 40px;
+	  background: #fff;
+	  border: hidden;
+    border-radius:2px;
+	  cursor: pointer;
+	  color: #000000;
+	  font-family: 'Exo', sans-serif;
+	  font-size: 16px;
+	  font-weight: 800;
+	  padding: 4px;
+  }
+  .star-icon input[type=submit]:hover{
+    opacity: 0.8;
+    color:red;
+  }
+  label{
+    color: #ffe400;
+  }
+  .rating-css input + label {
+    font-size: 200%;
+    text-shadow: 1px 1px 0 #ffe400;
+    cursor: pointer;
+  }
+  .rating-css input:checked + label ~ label {
+    color: #838383;
+  }
+  .rating-css label:active {
+    transform: scale(0.8);
+    transition: 0.3s ease;
+  }
+  a:hover {
+    color: red;
+  }
+  
